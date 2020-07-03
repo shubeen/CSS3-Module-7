@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            flex-direction:row ;
+        }
+        .food{
+            border: 3px solid lightgray;
+            margin: 10px;
+            border-radius: 30px;
+            width: 350px;
+        }
+        .food img{
+            width: 100%;
+        }
+        @media (max-width: 760px){
+            .container{
+                flex-direction:column;
+            }
+
+             .container .food{
+                background-color: lightslategray;
+                
+             }
+        }
+        @media (min-width: 1200px) {
+            .container .food{
+                background-color: red
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="food1.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deleniti quod rerum quam totam ipsum commodi enim aut pariatur ea.</p>
+        </div>
+        <div class="food">
+            <img src="food1.jpg" alt="">
+            <p>Possimus dolore quos earum eos asperiores cumque porro perferendis explicabo. Perspiciatis ipsa labore nostrum nobis facilis qui non necessitatibus et?</p>
+        </div>
+        <div class="food">
+            <img src="food1.jpg" alt="">
+            <p>Laborum harum corporis hic laboriosam ipsam enim asperiores, quisquam alias a, beatae ea autem consequuntur. Natus, corporis. Nobis, quas vel!</p>
+        </div>
+        <div class="food">
+            <img src="food1.jpg" alt="">
+            <p>Quis, illum quisquam dolores temporibus a ipsa veritatis iusto laborum optio molestiae nostrum illo suscipit. Quia sit ab qui maiores.</p>
+        </div>
+        <div class="food">
+            <img src="food1.jpg" alt="">
+            <p>Recusandae expedita laboriosam, hic dolorum sunt enim, eos aperiam incidunt natus accusamus ratione quod repellendus illum corporis suscipit labore aliquam.</p>
+        </div>
+        <div class="food">
+            <img src="food1.jpg" alt="">
+            <p>Sint quasi nesciunt rem aperiam, explicabo laudantium eius, doloremque modi animi iure vel soluta necessitatibus cum? Ducimus magnam ea porro?</p>
+        </div>
+
+    </div>
+</body>
+</html>
